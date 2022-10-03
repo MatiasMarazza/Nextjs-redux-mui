@@ -1,7 +1,7 @@
 import { NextPage } from 'next/types';
 import React from 'react';
 import { useAppDispatch, useAppSelector } from '../app/hooks';
-import { getKanyeQuote } from '../features/kanye';
+import { getKanyeQuote } from '../app/features/kanye';
 import { wrapper } from '../app/store';
 
 const kanye: NextPage = () => {

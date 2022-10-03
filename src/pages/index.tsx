@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { useAppDispatch, useAppSelector } from '../app/hooks';
-import { decrement, increment, incrementByAmount } from '../features/counter';
+import { decrement, increment, incrementByAmount } from '../app/features/counter';
 
 const IndexPage: React.FC = () => {
   const dispatch = useAppDispatch();
