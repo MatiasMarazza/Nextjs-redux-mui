@@ -1,5 +1,5 @@
 import type { AppProps } from 'next/app';
-import { wrapper } from '../app/store';
+import { wrapper } from '../redux/store';
 import * as React from 'react';
 import Head from 'next/head';
 import { ThemeProvider } from '@mui/material/styles';

@@ -5,8 +5,6 @@ import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import Link from '../Link';
-import ProTip from '../ProTip';
-import Copyright from '../Copyright';
 
 const About: NextPage = () => {
   return (
@@ -28,8 +26,6 @@ const About: NextPage = () => {
             Go to the home page
           </Button>
         </Box>
-        <ProTip />
-        <Copyright />
       </Box>
     </Container>
   );
